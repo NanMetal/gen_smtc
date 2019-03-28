@@ -208,6 +208,7 @@ namespace SMTC
                         oldStream.Dispose();
                     }
                     updater.Thumbnail = RandomAccessStreamReference.CreateFromStream(randomAccessStream);
+                    updater.Update();
                 }
             }
             else
